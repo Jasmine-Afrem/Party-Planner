@@ -1,0 +1,42 @@
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/home/jasmine/Downloads/happy-people-dancing-party-flat-illustration/5264.jpg');
+    background-size: cover; /* Ensures the whole image is shown */
+    background-position: center; /* Center the image */
+    /* Prevent repeating */
+    text-align: center;
+    color: black;
+   
+}
+
+
+
+h1 {
+    font-size: 2.5em;
+    color: black; /* Change color for better visibility on the background */
+}
+
+p {
+    font-size: 1.2em;
+    color: black; /* Change color for better visibility on the background */
+    margin-bottom: 20px;
+}
+
+.get-started-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #c548f7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.get-started-button:hover {
+    background-color: #f58ef5;
+}
