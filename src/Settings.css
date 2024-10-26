@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Align elements to the left */
-    padding: 20px;
+    padding: 40px;
     width: 100%;
     max-width: 800px; /* Max width for the form */
     margin: 0 auto; /* Center the form */
@@ -13,6 +13,7 @@
 
 form {
     width: 100%;
+    padding: 5px;
     max-width: 800px; /* Make the form take the full width of container */
 }
 
