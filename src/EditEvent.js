@@ -1,5 +1,5 @@
 // src/EditEvent.js
-import './EditEvent.css'; // Add your CSS file
+//import './EditEvent.css'; // Add your CSS file
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { auth, db } from './firebaseConfig'; // Import auth and db
